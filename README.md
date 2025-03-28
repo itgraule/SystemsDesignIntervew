@@ -78,3 +78,13 @@ From our headquarters we have to ensure many things in order to run the business
 - The system should have robust monitoring, logging, and alerting to quickly identify and resolve issues.
    
 
+
+
+## Sources 
+- https://medium.com/@karan99/system-design-uber-33593137a4fe 
+- https://www.geeksforgeeks.org/system-design-of-uber-app-uber-system-architecture/ 
+- https://medium.com/nerd-for-tech/uber-architecture-and-system-design-e8ac26690dfc
+- https://www.uber.com/en-ES/blog/architecture-api-gateway/ 
+https://www.uber.com/en-ES/blog/tech-stack-part-one-foundation/
+- https://www.uber.com/en-ES/blog/microservice-architecture/
+- https://theappsolutions.com/blog/development/uber-tech-stack/
