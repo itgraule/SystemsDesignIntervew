@@ -1,0 +1,64 @@
+{
+    "trip_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "rider": {
+      "rider_id": "f0e9d8c7-b6a5-4321-fedc-ba9876543210",
+      "first_name": "Elena",
+      "last_name": "García"
+    },
+    "driver": {
+      "driver_id": "1a2b3c4d-5e6f-7890-abcd-ef1234567890",
+      "first_name": "Javier",
+      "last_name": "Martínez",
+      "average_rating": 4.85
+    },
+    "vehicle": {
+      "vehicle_id": "fedcba98-7654-3210-1a2b-3c4d5e6f7890",
+      "make": "Seat",
+      "model": "León",
+      "color": "Rojo",
+      "license_plate": "1234 ABC",
+      "vehicle_type": "standard"
+    },
+    "trip_status": "completed",
+    "request_time": "2025-03-30T15:10:15Z",
+    "accept_time": "2025-03-30T15:11:05Z",
+    "pickup_time": "2025-03-30T15:15:45Z",
+    "dropoff_time": "2025-03-30T15:35:10Z",
+    "estimated_pickup_time": "2025-03-30T15:16:00Z",
+    "estimated_dropoff_time": "2025-03-30T15:38:00Z",
+    "estimated_fare": 18.50,
+    "actual_fare": 19.75,
+    "fare_currency": "EUR",
+    "fare_breakdown": {
+      "base_fare": 3.50,
+      "distance_charge": 9.80,
+      "time_charge": 4.20,
+      "surge_multiplier": 1.0,
+      "tolls": 0.00,
+      "booking_fee": 1.00,
+      "tax_vat": 1.25
+    },
+    "distance_meters": 7850,
+    "duration_seconds": 1165,
+    "pickup_location": {
+      "address": "Calle de Serrano, 45, 28001 Madrid, Spain",
+      "latitude": 40.4288,
+      "longitude": -3.6885,
+      "city": "Madrid"
+    },
+    "dropoff_location": {
+      "address": "Plaza Mayor, 1, 28012 Madrid, Spain",
+      "latitude": 40.4154,
+      "longitude": -3.7074,
+      "city": "Madrid"
+    },
+    "map_polyline": "encoded_polyline_string_here...", 
+    "payment_method_details": 
+    { 
+        "payment_method_id": "pm_abc123xyz...",
+        "card_type": "Visa",
+        "last4": "4242"
+    },
+    "created_at": "2025-03-30T15:10:15Z",
+    "updated_at": "2025-03-30T15:35:15Z"
+  }

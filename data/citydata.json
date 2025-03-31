@@ -1,0 +1,30 @@
+{
+    "query_details": {
+      "city_id": "es-mad", 
+      "start_date": "2025-03-29",
+      "end_date": "2025-03-29",
+      "granularity": "daily",
+      "generated_at": "2025-03-30T16:42:55Z" 
+    },
+    "metrics_summary": { 
+      "city_id": "es-mad", 
+      "city_name": "Madrid",
+      "total_revenue": {
+        "amount": 48700.50,
+        "currency": "EUR"
+      },
+      "completed_trips": 2510,
+      "average_trip_distance_km": 8.5,
+      "total_trip_distance_km": 21335,
+      "average_trip_duration_minutes": 22.1,
+      "total_trip_duration_hours": 924.8,
+      "average_fare_per_trip": {
+        "amount": 19.40,
+        "currency": "EUR"
+      },
+      "unique_active_drivers": 650,
+      "unique_active_riders": 2250,
+      "rider_cancellation_rate_percent": 5.5,
+      "driver_cancellation_rate_percent": 2.0
+    }
+  }
