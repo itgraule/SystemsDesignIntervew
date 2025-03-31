@@ -43,10 +43,10 @@ def analytics_city(city_id):
     
     except ValidationErr as e:
         # This indicates an issue mapping DB data to the response model
-        app.logger.error(f"Error creating response model for trip {city_id}: {e.errors()}")
+        app.logger.error(f"Error creating response model for city {city_id}: {e.errors()}")
         return jsonify({"error": "Internal server error creating response"}), 500
     except Exception as e:
-        app.logger.error(f"Error fetching trip {city_id}: {e}")
+        app.logger.error(f"Error fetching city {city_id}: {e}")
         return jsonify({"error": "Internal server error"}), 500
 
 
